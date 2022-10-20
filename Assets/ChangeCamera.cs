@@ -7,12 +7,13 @@ public class ChangeCamera : MonoBehaviour
 {
 
     // Define global variables
+    public Camera PanCamera;
     public Camera FirstPerson;
     public Camera ThirdPerson;
     public Camera SceneCamera;
 
     private Camera[] cameras;
-    private int currCameraIndex = 2;
+    private int currCameraIndex = 3;
     private Camera currCamera;
     private string camLabel;
 
@@ -20,10 +21,11 @@ public class ChangeCamera : MonoBehaviour
     void Start()
     {
         // Disable unused cameras
+        PanCamera.enabled = false;
         FirstPerson.enabled = false;
         ThirdPerson.enabled = false;
         // Initialize array of cameras to cycle through
-        cameras = new Camera[] {FirstPerson, ThirdPerson, SceneCamera};
+        cameras = new Camera[] {PanCamera, FirstPerson, ThirdPerson, SceneCamera};
         currCamera = SceneCamera;
     }
 
@@ -33,7 +35,7 @@ public class ChangeCamera : MonoBehaviour
         currCameraIndex++;
 
         // Circle back to beginning
-        if (currCameraIndex > 2) {
+        if (currCameraIndex > 3) {
             currCameraIndex = 0;
         }
 
