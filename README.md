@@ -1,4 +1,4 @@
-# CMPM-170-Unity-Scene
+# CMPM-121-Unity-Scene
 
 ### Scene Description:
 
