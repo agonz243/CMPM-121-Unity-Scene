@@ -22,3 +22,13 @@ Found Models (2 points each)
 - [Books](https://assetstore.unity.com/packages/3d/props/interior/books-3356) - Unity Asset Store
 - [Floor Puzzle](https://www.turbosquid.com/3d-models/puzzle-mat-3d-model-1195442) - TurboSquid
 - [Robot](https://assetstore.unity.com/packages/3d/characters/picolabo-218332#content) - Unity Asset Store
+- [Desk Lamp](https://assetstore.unity.com/packages/3d/props/furniture/modern-furniture-pieces-pack-81417#content) - Unity Asset Store
+
+### Controls:
+
+- Use WASD or the arrow keys to move around as Teddy the teddy bear! 
+- You can cycle through camera types by pressing the "Change Camera" button
+  1. Orthographic Camera
+  2. First Person Perspective Camera
+  3. Third Person Perspective Camera
+  4. Rotating Preview Camera
