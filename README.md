@@ -32,3 +32,15 @@ Found Models (2 points each)
   2. First Person Perspective Camera
   3. Third Person Perspective Camera
   4. Rotating Preview Camera
+
+---
+
+### Part 2: Lighting & Particle System
+
+- Additions:
+  - Added **particle systems** for candle fire and steam coming from mug
+  - Added star light fixture with an **emissive material**
+  - Added **Day & Night cycle** using two **directional lights**
+  - Added desk lamp with **spotlight** 
+  - Added **point light** to bedside lamp
+  
